@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0256CAC2A52B0E100C99FD8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0256CAB2A52B0E100C99FD8 /* RegisterViewController.swift */; };
+		C0256CAE2A52C49600C99FD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0256CAD2A52C49600C99FD8 /* HomeViewController.swift */; };
+		C0256CB32A52CAC900C99FD8 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0256CB22A52CAC900C99FD8 /* ProductModel.swift */; };
+		C0256CB62A52CD2600C99FD8 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0256CB42A52CD2600C99FD8 /* ProductCollectionViewCell.swift */; };
+		C0256CB72A52CD2600C99FD8 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0256CB52A52CD2600C99FD8 /* ProductCollectionViewCell.xib */; };
+		C0256CB92A52CFE000C99FD8 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0256CB82A52CFE000C99FD8 /* APIHandler.swift */; };
+		C0256CBC2A52D02400C99FD8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C0256CBB2A52D02400C99FD8 /* Alamofire */; };
+		C0256CBF2A52D04600C99FD8 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C0256CBE2A52D04600C99FD8 /* Kingfisher */; };
+		C0256CC32A5332EB00C99FD8 /* ShirtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0256CC22A5332EB00C99FD8 /* ShirtsViewController.swift */; };
+		C0357B962A595D68008135C2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0357B952A595D68008135C2 /* UserModel.swift */; };
+		C0357B982A596BE0008135C2 /* InFoUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0357B972A596BE0008135C2 /* InFoUserViewController.swift */; };
+		C07CC9062A5905AE009F29D0 /* OderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07CC9052A5905AE009F29D0 /* OderHistoryViewController.swift */; };
+		C0D7B8022A548A4500996563 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7B8012A548A4500996563 /* DetailViewController.swift */; };
+		C0D7B8042A549C0500996563 /* SearchProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D7B8032A549C0500996563 /* SearchProductViewController.swift */; };
+		C0EA309B2A528BFE007E0A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA309A2A528BFE007E0A68 /* AppDelegate.swift */; };
+		C0EA309D2A528BFE007E0A68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA309C2A528BFE007E0A68 /* SceneDelegate.swift */; };
+		C0EA309F2A528BFE007E0A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA309E2A528BFE007E0A68 /* ViewController.swift */; };
+		C0EA30A22A528BFE007E0A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EA30A02A528BFE007E0A68 /* Main.storyboard */; };
+		C0EA30A42A528BFF007E0A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EA30A32A528BFF007E0A68 /* Assets.xcassets */; };
+		C0EA30A72A528BFF007E0A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0EA30A52A528BFF007E0A68 /* LaunchScreen.storyboard */; };
+		C0EA30B22A528BFF007E0A68 /* TikTokShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA30B12A528BFF007E0A68 /* TikTokShopTests.swift */; };
+		C0EA30BC2A528BFF007E0A68 /* TikTokShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA30BB2A528BFF007E0A68 /* TikTokShopUITests.swift */; };
+		C0EA30BE2A528BFF007E0A68 /* TikTokShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA30BD2A528BFF007E0A68 /* TikTokShopUITestsLaunchTests.swift */; };
+		C0EA30CC2A52962D007E0A68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA30CB2A52962D007E0A68 /* LoginViewController.swift */; };
+		C0EF66132A5A759D00BFBB6C /* NilProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF66122A5A759D00BFBB6C /* NilProductViewController.swift */; };
+		C0F2B09D2A550D8500AE7488 /* SearchProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F2B09B2A550D8500AE7488 /* SearchProductTableViewCell.swift */; };
+		C0F2B09E2A550D8500AE7488 /* SearchProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F2B09C2A550D8500AE7488 /* SearchProductTableViewCell.xib */; };
+		C0F2B0A02A55600F00AE7488 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F2B09F2A55600F00AE7488 /* CartViewController.swift */; };
+		C0F2B0A32A55705F00AE7488 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F2B0A12A55705F00AE7488 /* CartTableViewCell.swift */; };
+		C0F2B0A42A55705F00AE7488 /* CartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0F2B0A22A55705F00AE7488 /* CartTableViewCell.xib */; };
+		C0F2B0A62A55DD7A00AE7488 /* InfoOderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F2B0A52A55DD7A00AE7488 /* InfoOderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0EA30AE2A528BFF007E0A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EA308F2A528BFE007E0A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0EA30962A528BFE007E0A68;
+			remoteInfo = TikTokShop;
+		};
+		C0EA30B82A528BFF007E0A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EA308F2A528BFE007E0A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0EA30962A528BFE007E0A68;
+			remoteInfo = TikTokShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0256CAB2A52B0E100C99FD8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C0256CAD2A52C49600C99FD8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C0256CB22A52CAC900C99FD8 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		C0256CB42A52CD2600C99FD8 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		C0256CB52A52CD2600C99FD8 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		C0256CB82A52CFE000C99FD8 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		C0256CC22A5332EB00C99FD8 /* ShirtsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShirtsViewController.swift; sourceTree = "<group>"; };
+		C0357B952A595D68008135C2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C0357B972A596BE0008135C2 /* InFoUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InFoUserViewController.swift; sourceTree = "<group>"; };
+		C07CC9052A5905AE009F29D0 /* OderHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OderHistoryViewController.swift; sourceTree = "<group>"; };
+		C0D7B8012A548A4500996563 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C0D7B8032A549C0500996563 /* SearchProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProductViewController.swift; sourceTree = "<group>"; };
+		C0EA30972A528BFE007E0A68 /* TikTokShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EA309A2A528BFE007E0A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0EA309C2A528BFE007E0A68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0EA309E2A528BFE007E0A68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0EA30A12A528BFE007E0A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0EA30A32A528BFF007E0A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0EA30A62A528BFF007E0A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0EA30A82A528BFF007E0A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0EA30AD2A528BFF007E0A68 /* TikTokShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EA30B12A528BFF007E0A68 /* TikTokShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokShopTests.swift; sourceTree = "<group>"; };
+		C0EA30B72A528BFF007E0A68 /* TikTokShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikTokShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EA30BB2A528BFF007E0A68 /* TikTokShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokShopUITests.swift; sourceTree = "<group>"; };
+		C0EA30BD2A528BFF007E0A68 /* TikTokShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTokShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0EA30CB2A52962D007E0A68 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C0EF66122A5A759D00BFBB6C /* NilProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NilProductViewController.swift; sourceTree = "<group>"; };
+		C0F2B09B2A550D8500AE7488 /* SearchProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProductTableViewCell.swift; sourceTree = "<group>"; };
+		C0F2B09C2A550D8500AE7488 /* SearchProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchProductTableViewCell.xib; sourceTree = "<group>"; };
+		C0F2B09F2A55600F00AE7488 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		C0F2B0A12A55705F00AE7488 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		C0F2B0A22A55705F00AE7488 /* CartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartTableViewCell.xib; sourceTree = "<group>"; };
+		C0F2B0A52A55DD7A00AE7488 /* InfoOderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoOderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0EA30942A528BFE007E0A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0256CBF2A52D04600C99FD8 /* Kingfisher in Frameworks */,
+				C0256CBC2A52D02400C99FD8 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EA30AA2A528BFF007E0A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EA30B42A528BFF007E0A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0256CAF2A52C92A00C99FD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0256CB42A52CD2600C99FD8 /* ProductCollectionViewCell.swift */,
+				C0256CB52A52CD2600C99FD8 /* ProductCollectionViewCell.xib */,
+				C0F2B09B2A550D8500AE7488 /* SearchProductTableViewCell.swift */,
+				C0F2B09C2A550D8500AE7488 /* SearchProductTableViewCell.xib */,
+				C0F2B0A12A55705F00AE7488 /* CartTableViewCell.swift */,
+				C0F2B0A22A55705F00AE7488 /* CartTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0256CB02A52C93000C99FD8 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				C0256CB82A52CFE000C99FD8 /* APIHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		C0256CB12A52C94200C99FD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0256CB22A52CAC900C99FD8 /* ProductModel.swift */,
+				C0357B952A595D68008135C2 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0EA308E2A528BFE007E0A68 = {
+			isa = PBXGroup;
+			children = (
+				C0EA30992A528BFE007E0A68 /* TikTokShop */,
+				C0EA30B02A528BFF007E0A68 /* TikTokShopTests */,
+				C0EA30BA2A528BFF007E0A68 /* TikTokShopUITests */,
+				C0EA30982A528BFE007E0A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0EA30982A528BFE007E0A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA30972A528BFE007E0A68 /* TikTokShop.app */,
+				C0EA30AD2A528BFF007E0A68 /* TikTokShopTests.xctest */,
+				C0EA30B72A528BFF007E0A68 /* TikTokShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0EA30992A528BFE007E0A68 /* TikTokShop */ = {
+			isa = PBXGroup;
+			children = (
+				C0256CB12A52C94200C99FD8 /* Model */,
+				C0256CB02A52C93000C99FD8 /* Handlers */,
+				C0256CAF2A52C92A00C99FD8 /* Views */,
+				C0EA30CA2A529611007E0A68 /* Controllers */,
+				C0EA309A2A528BFE007E0A68 /* AppDelegate.swift */,
+				C0EA309C2A528BFE007E0A68 /* SceneDelegate.swift */,
+				C0EA309E2A528BFE007E0A68 /* ViewController.swift */,
+				C0EA30A02A528BFE007E0A68 /* Main.storyboard */,
+				C0EA30A32A528BFF007E0A68 /* Assets.xcassets */,
+				C0EA30A52A528BFF007E0A68 /* LaunchScreen.storyboard */,
+				C0EA30A82A528BFF007E0A68 /* Info.plist */,
+			);
+			path = TikTokShop;
+			sourceTree = "<group>";
+		};
+		C0EA30B02A528BFF007E0A68 /* TikTokShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA30B12A528BFF007E0A68 /* TikTokShopTests.swift */,
+			);
+			path = TikTokShopTests;
+			sourceTree = "<group>";
+		};
+		C0EA30BA2A528BFF007E0A68 /* TikTokShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA30BB2A528BFF007E0A68 /* TikTokShopUITests.swift */,
+				C0EA30BD2A528BFF007E0A68 /* TikTokShopUITestsLaunchTests.swift */,
+			);
+			path = TikTokShopUITests;
+			sourceTree = "<group>";
+		};
+		C0EA30CA2A529611007E0A68 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0EA30CB2A52962D007E0A68 /* LoginViewController.swift */,
+				C0256CAB2A52B0E100C99FD8 /* RegisterViewController.swift */,
+				C0256CAD2A52C49600C99FD8 /* HomeViewController.swift */,
+				C0256CC22A5332EB00C99FD8 /* ShirtsViewController.swift */,
+				C0D7B8012A548A4500996563 /* DetailViewController.swift */,
+				C0D7B8032A549C0500996563 /* SearchProductViewController.swift */,
+				C0F2B09F2A55600F00AE7488 /* CartViewController.swift */,
+				C0F2B0A52A55DD7A00AE7488 /* InfoOderViewController.swift */,
+				C07CC9052A5905AE009F29D0 /* OderHistoryViewController.swift */,
+				C0357B972A596BE0008135C2 /* InFoUserViewController.swift */,
+				C0EF66122A5A759D00BFBB6C /* NilProductViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0EA30962A528BFE007E0A68 /* TikTokShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EA30C12A528BFF007E0A68 /* Build configuration list for PBXNativeTarget "TikTokShop" */;
+			buildPhases = (
+				C0EA30932A528BFE007E0A68 /* Sources */,
+				C0EA30942A528BFE007E0A68 /* Frameworks */,
+				C0EA30952A528BFE007E0A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikTokShop;
+			packageProductDependencies = (
+				C0256CBB2A52D02400C99FD8 /* Alamofire */,
+				C0256CBE2A52D04600C99FD8 /* Kingfisher */,
+			);
+			productName = TikTokShop;
+			productReference = C0EA30972A528BFE007E0A68 /* TikTokShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0EA30AC2A528BFF007E0A68 /* TikTokShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EA30C42A528BFF007E0A68 /* Build configuration list for PBXNativeTarget "TikTokShopTests" */;
+			buildPhases = (
+				C0EA30A92A528BFF007E0A68 /* Sources */,
+				C0EA30AA2A528BFF007E0A68 /* Frameworks */,
+				C0EA30AB2A528BFF007E0A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0EA30AF2A528BFF007E0A68 /* PBXTargetDependency */,
+			);
+			name = TikTokShopTests;
+			productName = TikTokShopTests;
+			productReference = C0EA30AD2A528BFF007E0A68 /* TikTokShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0EA30B62A528BFF007E0A68 /* TikTokShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EA30C72A528BFF007E0A68 /* Build configuration list for PBXNativeTarget "TikTokShopUITests" */;
+			buildPhases = (
+				C0EA30B32A528BFF007E0A68 /* Sources */,
+				C0EA30B42A528BFF007E0A68 /* Frameworks */,
+				C0EA30B52A528BFF007E0A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0EA30B92A528BFF007E0A68 /* PBXTargetDependency */,
+			);
+			name = TikTokShopUITests;
+			productName = TikTokShopUITests;
+			productReference = C0EA30B72A528BFF007E0A68 /* TikTokShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0EA308F2A528BFE007E0A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C0EA30962A528BFE007E0A68 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C0EA30AC2A528BFF007E0A68 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C0EA30962A528BFE007E0A68;
+					};
+					C0EA30B62A528BFF007E0A68 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C0EA30962A528BFE007E0A68;
+					};
+				};
+			};
+			buildConfigurationList = C0EA30922A528BFE007E0A68 /* Build configuration list for PBXProject "TikTokShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0EA308E2A528BFE007E0A68;
+			packageReferences = (
+				C0256CBA2A52D02400C99FD8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C0256CBD2A52D04600C99FD8 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = C0EA30982A528BFE007E0A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0EA30962A528BFE007E0A68 /* TikTokShop */,
+				C0EA30AC2A528BFF007E0A68 /* TikTokShopTests */,
+				C0EA30B62A528BFF007E0A68 /* TikTokShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0EA30952A528BFE007E0A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F2B09E2A550D8500AE7488 /* SearchProductTableViewCell.xib in Resources */,
+				C0EA30A72A528BFF007E0A68 /* LaunchScreen.storyboard in Resources */,
+				C0EA30A42A528BFF007E0A68 /* Assets.xcassets in Resources */,
+				C0F2B0A42A55705F00AE7488 /* CartTableViewCell.xib in Resources */,
+				C0256CB72A52CD2600C99FD8 /* ProductCollectionViewCell.xib in Resources */,
+				C0EA30A22A528BFE007E0A68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EA30AB2A528BFF007E0A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EA30B52A528BFF007E0A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0EA30932A528BFE007E0A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D7B8022A548A4500996563 /* DetailViewController.swift in Sources */,
+				C0EA30CC2A52962D007E0A68 /* LoginViewController.swift in Sources */,
+				C0F2B0A02A55600F00AE7488 /* CartViewController.swift in Sources */,
+				C0F2B09D2A550D8500AE7488 /* SearchProductTableViewCell.swift in Sources */,
+				C07CC9062A5905AE009F29D0 /* OderHistoryViewController.swift in Sources */,
+				C0256CC32A5332EB00C99FD8 /* ShirtsViewController.swift in Sources */,
+				C0256CAC2A52B0E100C99FD8 /* RegisterViewController.swift in Sources */,
+				C0256CB62A52CD2600C99FD8 /* ProductCollectionViewCell.swift in Sources */,
+				C0EA309F2A528BFE007E0A68 /* ViewController.swift in Sources */,
+				C0D7B8042A549C0500996563 /* SearchProductViewController.swift in Sources */,
+				C0EA309B2A528BFE007E0A68 /* AppDelegate.swift in Sources */,
+				C0EA309D2A528BFE007E0A68 /* SceneDelegate.swift in Sources */,
+				C0256CB92A52CFE000C99FD8 /* APIHandler.swift in Sources */,
+				C0F2B0A62A55DD7A00AE7488 /* InfoOderViewController.swift in Sources */,
+				C0F2B0A32A55705F00AE7488 /* CartTableViewCell.swift in Sources */,
+				C0256CB32A52CAC900C99FD8 /* ProductModel.swift in Sources */,
+				C0EF66132A5A759D00BFBB6C /* NilProductViewController.swift in Sources */,
+				C0357B982A596BE0008135C2 /* InFoUserViewController.swift in Sources */,
+				C0357B962A595D68008135C2 /* UserModel.swift in Sources */,
+				C0256CAE2A52C49600C99FD8 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EA30A92A528BFF007E0A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EA30B22A528BFF007E0A68 /* TikTokShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EA30B32A528BFF007E0A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EA30BE2A528BFF007E0A68 /* TikTokShopUITestsLaunchTests.swift in Sources */,
+				C0EA30BC2A528BFF007E0A68 /* TikTokShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0EA30AF2A528BFF007E0A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0EA30962A528BFE007E0A68 /* TikTokShop */;
+			targetProxy = C0EA30AE2A528BFF007E0A68 /* PBXContainerItemProxy */;
+		};
+		C0EA30B92A528BFF007E0A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0EA30962A528BFE007E0A68 /* TikTokShop */;
+			targetProxy = C0EA30B82A528BFF007E0A68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0EA30A02A528BFE007E0A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EA30A12A528BFE007E0A68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0EA30A52A528BFF007E0A68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0EA30A62A528BFF007E0A68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0EA30BF2A528BFF007E0A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0EA30C02A528BFF007E0A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0EA30C22A528BFF007E0A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikTokShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TikTokShop.TikTokShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0EA30C32A528BFF007E0A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikTokShop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TikTokShop.TikTokShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0EA30C52A528BFF007E0A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TikTokShop.TikTokShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTokShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikTokShop";
+			};
+			name = Debug;
+		};
+		C0EA30C62A528BFF007E0A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TikTokShop.TikTokShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikTokShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TikTokShop";
+			};
+			name = Release;
+		};
+		C0EA30C82A528BFF007E0A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TikTokShop.TikTokShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikTokShop;
+			};
+			name = Debug;
+		};
+		C0EA30C92A528BFF007E0A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.TikTokShop.TikTokShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TikTokShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0EA30922A528BFE007E0A68 /* Build configuration list for PBXProject "TikTokShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EA30BF2A528BFF007E0A68 /* Debug */,
+				C0EA30C02A528BFF007E0A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EA30C12A528BFF007E0A68 /* Build configuration list for PBXNativeTarget "TikTokShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EA30C22A528BFF007E0A68 /* Debug */,
+				C0EA30C32A528BFF007E0A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EA30C42A528BFF007E0A68 /* Build configuration list for PBXNativeTarget "TikTokShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EA30C52A528BFF007E0A68 /* Debug */,
+				C0EA30C62A528BFF007E0A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EA30C72A528BFF007E0A68 /* Build configuration list for PBXNativeTarget "TikTokShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EA30C82A528BFF007E0A68 /* Debug */,
+				C0EA30C92A528BFF007E0A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0256CBA2A52D02400C99FD8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C0256CBD2A52D04600C99FD8 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0256CBB2A52D02400C99FD8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0256CBA2A52D02400C99FD8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C0256CBE2A52D04600C99FD8 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0256CBD2A52D04600C99FD8 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C0EA308F2A528BFE007E0A68 /* Project object */;
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5DFD85AB-BDC4-45E5-AA3D-BF34825DFB9B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4CC8A685-C9A6-48E1-9372-1A0D7415E29D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TikTokShop/Controllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "btnLogin(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60C8FD1C-4306-41F8-8027-B9F940F30AFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TikTokShop/Controllers/InfoOderViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "60C8FD1C-4306-41F8-8027-B9F940F30AFF - c860ac8560207c56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TikTokShop.InfoOderViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TikTokShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khachung/Desktop/ALL/Vietdeveloper_K17/TikTokShop/TikTokShop/Controllers/InfoOderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1472">
+               </Location>
+               <Location
+                  uuid = "60C8FD1C-4306-41F8-8027-B9F940F30AFF - c860ac8560207c56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TikTokShop.InfoOderViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TikTokShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khachung/Desktop/ALL/Vietdeveloper_K17/TikTokShop/TikTokShop/Controllers/InfoOderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1656">
+               </Location>
+               <Location
+                  uuid = "60C8FD1C-4306-41F8-8027-B9F940F30AFF - c860ac8560207c56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TikTokShop.InfoOderViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TikTokShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khachung/Desktop/ALL/Vietdeveloper_K17/TikTokShop/TikTokShop/Controllers/InfoOderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1480">
+               </Location>
+               <Location
+                  uuid = "60C8FD1C-4306-41F8-8027-B9F940F30AFF - c860ac8560207c56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TikTokShop.InfoOderViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TikTokShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khachung/Desktop/ALL/Vietdeveloper_K17/TikTokShop/TikTokShop/Controllers/InfoOderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1664">
+               </Location>
+               <Location
+                  uuid = "60C8FD1C-4306-41F8-8027-B9F940F30AFF - c860ac8560207c37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TikTokShop.InfoOderViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TikTokShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khachung/Desktop/ALL/Vietdeveloper_K17/TikTokShop/TikTokShop/Controllers/InfoOderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1472">
+               </Location>
+               <Location
+                  uuid = "60C8FD1C-4306-41F8-8027-B9F940F30AFF - c860ac8560207c37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TikTokShop.InfoOderViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "TikTokShop"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khachung/Desktop/ALL/Vietdeveloper_K17/TikTokShop/TikTokShop/Controllers/InfoOderViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
