@@ -41,6 +41,7 @@ class InfoOderViewController: UIViewController, UITableViewDelegate, UITableView
         if let product = self.product {
             cell.lblName.text = product.name
             cell.lblPrice.text = "\(product.price) $"
+            cell.imgSearch.kf.setImage(with: URL(string: product.img))
             
         }
         

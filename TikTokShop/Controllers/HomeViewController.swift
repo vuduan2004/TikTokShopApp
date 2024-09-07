@@ -14,7 +14,6 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     @IBOutlet weak var TabBarHome: UITabBar!
     @IBOutlet weak var lblNew: UILabel!
     @IBOutlet weak var cvSPHot: UICollectionView!
-    
     @IBOutlet weak var btnHandBag: UIButton!
     @IBOutlet weak var btnScandal: UIButton!
     @IBOutlet weak var btnShoe: UIButton!

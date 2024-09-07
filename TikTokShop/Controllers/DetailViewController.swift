@@ -45,7 +45,7 @@ class DetailViewController: UIViewController {
             UserDefaults.standard.set(encoded, forKey: "saveData")
         }
         
-        let alert = UIAlertController(title: "Success", message: "Product has been added to cart.", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Thành công", message: "Sản phẩm đã được thêm vào giỏ hàng.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alert, animated: true)
     }
